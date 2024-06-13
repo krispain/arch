@@ -6,8 +6,6 @@
       pacman:
         name: |
           less,
-          chromium,
-          brave-browser,
           firefox,
           shotwell,
           libreoffice,

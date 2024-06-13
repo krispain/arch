@@ -75,7 +75,4 @@
         repo: https://aur.archlinux.org/yay-bin.git
         dest: /tmp/yay-bin
 
-    - name: Install yay-bin from git
-      shell: 
-        cmd: echo "Run"
 

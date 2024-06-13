@@ -73,10 +73,11 @@
     - name: Clone yay-bin from git
       git:
         repo: https://aur.archlinux.org/yay-bin.git
-        dest: /root/yay-bin
+        dest: /tmp/yay-bin
 
     - name: Install yay-bin from git
-      shell: makepkg -si 
-      args:
-        chdir: /root/yay-bin/
+       shell: |
+         echo "Run these as a nomal user with sudo privleges:" 
+         echo "cd/tmp/yay-bin"
+         echo "makepkg -si "
 

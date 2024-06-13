@@ -42,7 +42,6 @@
           - id3v2
           - lame
           - id3lib
-          - alsa-sof-firmware
           - pavucontrol
           - pulseaudio-utils
           - intel-audio-firmware

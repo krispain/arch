@@ -4,7 +4,7 @@
   tasks:
     - name: Install some packages
       pacman:
-        name: |
+        name:
           - less
           - firefox
           - shotwell

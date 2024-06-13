@@ -76,5 +76,6 @@
         dest: /tmp/yay-bin
 
     - name: Install yay-bin from git
-      shell: echo "Run these as a nomal user with sudo privleges:\ncd/tmp/yay-bin\nmakepkg -si "
+      shell: 
+        cmd: echo "Run these as a nomal user with sudo privleges:\ncd/tmp/yay-bin\nmakepkg -si "
 

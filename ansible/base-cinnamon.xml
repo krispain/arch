@@ -42,7 +42,6 @@
           - id3v2
           - lame
           - id3lib
-          - mp3gain
           - alsa-sof-firmware
           - pavucontrol
           - pulseaudio-utils

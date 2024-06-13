@@ -75,4 +75,12 @@
         repo: https://aur.archlinux.org/yay-bin.git
         dest: /tmp/yay-bin
 
+    - name: Install yay-bin from git
+      shell: |
+        echo "Run these as a nomal user with sudo privleges:" 
+        echo "cd/tmp/yay-bin"
+        echo "makepkg -si "
+        exit 0
+       args:
+         executable: /bin/bash
 

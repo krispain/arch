@@ -46,8 +46,6 @@
           - qbittorrent
           - nextcloud-client
           - icedtea-web
-          - default-fonts
-          - default-fonts-core
           - fzf
           - bat
           - fd-find

@@ -44,7 +44,7 @@
           - id3lib
           - pavucontrol
           - qbittorrent
-          - nextcloud-client-nautilus
+          - nextcloud-client
           - icedtea-web
           - default-fonts
           - default-fonts-core

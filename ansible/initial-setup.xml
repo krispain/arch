@@ -77,5 +77,6 @@
 
     - name: Install yay-bin from git
       shell: makepkg -si 
-        chdir: /root/yay-bin
+      args:
+        chdir: /root/yay-bin/
 

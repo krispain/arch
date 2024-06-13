@@ -38,6 +38,11 @@
         group: root
         mode: 0644
 
+    - name: install NFS package
+      pacman:
+        name: libnfs
+        state: present
+
     - name: Mount home NFS volumes with noauto according to boot option
       ansible.posix.mount:
         src: 172.16.1.74:/nfs/WDNFS

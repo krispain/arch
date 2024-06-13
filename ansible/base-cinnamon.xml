@@ -43,9 +43,6 @@
           - lame
           - id3lib
           - pavucontrol
-          - pulseaudio-utils
-          - intel-audio-firmware
-          - protonvpn
           - qbittorrent
           - normalize
           - nextcloud-client-nautilus

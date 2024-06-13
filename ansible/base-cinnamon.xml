@@ -1,0 +1,97 @@
+---
+- hosts: localhost
+
+  tasks:
+    - name: Install some packages
+      pacman:
+        name: |
+          yay,
+          chromium,
+          brave-browser,
+          firefox,
+          shotwell,
+          libreoffice,
+          cups,
+          simple-scan,
+          atril,
+          gvfs-mtp,
+          ifuse,
+          libimobiledevice-utils,
+          usbmuxd,
+          mate-terminal,
+          neofetch,
+          screenfetch,
+          htop,
+          ncdu,
+          et,
+          android-tools,
+          tigervnc,
+          docker-compose,
+          virt-manager,
+          openssh-askpass,
+          mosh,
+          rclone,
+          nmap,
+          meld,
+          openvpn,
+          glxinfo,
+          gparted,
+          gimp,
+          mate-utils,
+          eom,
+          audacity,
+          sox,
+          vlc,
+          mplayer,
+          yt-dlp,
+          id3v2,
+          lame,
+          id3lib,
+          mp3gain,
+          alsa-sof-firmware,
+          pavucontrol,
+          pulseaudio-utils,
+          intel-audio-firmware,
+          protonvpn,
+          qbittorrent,
+          normalize,
+          nextcloud-client-nautilus,
+          iwlwifi-mvm-firmware,
+          iwlwifi-dvm-firmware,
+          icedtea-web,
+          default-fonts,
+          default-fonts-core,
+          fzf,
+          bat,
+          fd-find,
+          vim-X11,
+          vim-syntastic-ansible.noarch,
+          remove-retired-packages,
+          smem,
+          x2goclient
+
+    - name: Remove some packages
+      pacman:
+        name: |
+          thunderbird,
+        state: absent
+
+#     - name: Install flatpak packages
+#       community.general.flatpak:
+#         name:
+#           - com.slack.Slack
+#           - com.bitwarden.desktop
+#           - org.signal.Signal
+#           - org.telegram.desktop
+
+    - name: Install linphone appimage
+      ansible.builtin.get_url:
+        url: https://linphone.org/releases/linux/latest_app
+        dest: /usr/local/bin/linphone
+        mode: '0755'
+
+#     - name: Install Protonmail Desktop App
+#       dnf:
+#         name: "https://proton.me/download/mail/linux/ProtonMail-desktop-beta.rpm"
+#         disable_gpg_check: true
+#         state: present

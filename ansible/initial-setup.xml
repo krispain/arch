@@ -70,3 +70,11 @@
           - git
           - base-devel
 
+    - name: Install yay from git
+      git:
+        repo: https://aur.archlinux.org/yay-bin.git
+        dest: /root/yay-bin
+
+# cd yay-bin
+# makepkg -si 
+

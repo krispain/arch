@@ -5,68 +5,68 @@
     - name: Install some packages
       pacman:
         name: |
-          less,
-          firefox,
-          shotwell,
-          libreoffice,
-          cups,
-          simple-scan,
-          atril,
-          gvfs-mtp,
-          ifuse,
-          libimobiledevice-utils,
-          usbmuxd,
-          mate-terminal,
-          neofetch,
-          screenfetch,
-          htop,
-          ncdu,
-          et,
-          android-tools,
-          tigervnc,
-          docker-compose,
-          virt-manager,
-          openssh-askpass,
-          mosh,
-          rclone,
-          nmap,
-          meld,
-          openvpn,
-          glxinfo,
-          gparted,
-          gimp,
-          mate-utils,
-          eom,
-          audacity,
-          sox,
-          vlc,
-          mplayer,
-          yt-dlp,
-          id3v2,
-          lame,
-          id3lib,
-          mp3gain,
-          alsa-sof-firmware,
-          pavucontrol,
-          pulseaudio-utils,
-          intel-audio-firmware,
-          protonvpn,
-          qbittorrent,
-          normalize,
-          nextcloud-client-nautilus,
-          iwlwifi-mvm-firmware,
-          iwlwifi-dvm-firmware,
-          icedtea-web,
-          default-fonts,
-          default-fonts-core,
-          fzf,
-          bat,
-          fd-find,
-          vim-X11,
-          vim-syntastic-ansible.noarch,
-          remove-retired-packages,
-          smem,
-          x2goclient
+          - less
+          - firefox
+          - shotwell
+          - libreoffice
+          - cups
+          - simple-scan
+          - atril
+          - gvfs-mtp
+          - ifuse
+          - libimobiledevice-utils
+          - usbmuxd
+          - mate-terminal
+          - neofetch
+          - screenfetch
+          - htop
+          - ncdu
+          - et
+          - android-tools
+          - tigervnc
+          - docker-compose
+          - virt-manager
+          - openssh-askpass
+          - mosh
+          - rclone
+          - nmap
+          - meld
+          - openvpn
+          - glxinfo
+          - gparted
+          - gimp
+          - mate-utils
+          - eom
+          - audacity
+          - sox
+          - vlc
+          - mplayer
+          - yt-dlp
+          - id3v2
+          - lame
+          - id3lib
+          - mp3gain
+          - alsa-sof-firmware
+          - pavucontrol
+          - pulseaudio-utils
+          - intel-audio-firmware
+          - protonvpn
+          - qbittorrent
+          - normalize
+          - nextcloud-client-nautilus
+          - iwlwifi-mvm-firmware
+          - iwlwifi-dvm-firmware
+          - icedtea-web
+          - default-fonts
+          - default-fonts-core
+          - fzf
+          - bat
+          - fd-find
+          - vim-X11
+          - vim-syntastic-ansible.noarch
+          - remove-retired-packages
+          - smem
+          - x2goclient
 
     - name: Remove some packages
       pacman:

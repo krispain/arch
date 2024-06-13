@@ -6,6 +6,7 @@
       pacman:
         name: |
           yay,
+          less,
           chromium,
           brave-browser,
           firefox,

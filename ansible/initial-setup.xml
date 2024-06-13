@@ -40,7 +40,7 @@
 
     - name: install NFS package
       pacman:
-        name: libnfs
+        name: nfs-utils
         state: present
 
     - name: Mount home NFS volumes with noauto according to boot option

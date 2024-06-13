@@ -67,6 +67,6 @@
     - name: Install yay dependencies
       pacman:
         name: 
-	 - git
-         - base-devel
+          - git
+          - base-devel
 

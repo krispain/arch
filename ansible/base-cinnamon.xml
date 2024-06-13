@@ -48,7 +48,6 @@
           - icedtea-web
           - fzf
           - bat
-          - smem
           - x2goclient
 
     - name: Remove some packages

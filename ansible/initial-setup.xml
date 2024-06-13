@@ -53,8 +53,9 @@
         fstype: nfs
 
     - name: Install flatpak
-      dnf:
+      pacman:
         name: flatpak-builder
+        state: present
 
     - name: Add the flathub flatpak repository remote to the user installation
       community.general.flatpak_remote:

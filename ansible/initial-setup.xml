@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-
+  tasks:
     - name: Update all packages
       pacman:
         name: "*"

@@ -5,7 +5,6 @@
     - name: Install some packages
       pacman:
         name: |
-          yay,
           less,
           chromium,
           brave-browser,

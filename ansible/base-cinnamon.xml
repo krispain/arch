@@ -48,10 +48,6 @@
           - icedtea-web
           - fzf
           - bat
-          - fd-find
-          - vim-X11
-          - vim-syntastic-ansible.noarch
-          - remove-retired-packages
           - smem
           - x2goclient
 

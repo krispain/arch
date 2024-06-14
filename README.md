@@ -33,3 +33,18 @@ cd /root
 git clone https://github.com/krispain/arch.git
 ```
 
+and run a few playbooks:
+```
+cd /root/arch/ansible/ && git pull
+ansible-playbook initial-setup.xml
+ansible-playbook base-cinnamon.xml
+```
+
+Will need to manually install 'yay' as a normal user:
+
+```
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
+```
+
+
+
